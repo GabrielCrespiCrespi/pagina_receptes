@@ -1,7 +1,209 @@
-header{
+.header{
     background-color: blanchedalmond;
 }
-    h1 {
-    color:bisque;
-    font-size: 13px;
+    
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+.body{
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63;
+    background: bisque;
+    position: fixed;
+    width: 100;
+    z-index: 100;
+}
+
+.navbar{
+    display: flex;
+    margin-right: 10px;
+}
+
+.logo{
+    margin-left: 30px;
+    color: fff;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a{
+    display: block;
+    padding:20px 20px;
+    color: fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a:hover{
+    background-color: rgb(206, 161, 248);
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    background-size: cover;
+}
+
+.title{
+    margin-bottom: 40px;
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: aliceblue;
+}
+
+.p{
+    margin-bottom: 40px;
+    font-size: 18px;
+    color: #fff;
+    padding: 0 100px;
+}
+
+.btn{
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 40px;
+    border: 2px solid #lightgreen;
+}
+.btn:hover{
+    background: none;
+}
+
+.content{
+    height: 501;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sau{
+    padding: 50px 0;
+    background: #303030;
+}
+
+.box-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: centers;
+}
+
+.box-container .box{
+    height: 170px;
+    width: 270;
+    background: #171717;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0);
+    margin: 20px;
+}
+
+.box-container .box i{
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 50%;
+    color: #fff;
+    background: #e92e61;
+    font-size: 25px;
+    margin: 10px 0;
+}
+
+.box-container .box h3{
+    font-size: 20px;
+    color: #e92e61
+}
+
+.box-container .box p{
+    padding: 0 15px;
+    font-size: 16px;
+}
+
+.about{
+    background: #303030;
+    padding: 50px 0;
+}
+
+.box-container2{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    flex-wrap: wrap;
+}
+
+.box-container2 .box{
+    width: 250px;
+    padding-bottom: 20px;
+    text-align: center;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0);
+    background: #171717;
+    margin: 20px 20px;
+}
+
+.box-container2 .box h3{
+    font-size: 20px;
+    color: #e92e61;
+    padding-top: 10px;
+}
+
+.box-container2.box p{
+    font-size: 18px;
+    color: #fff;
+    padding: 0;
+}
+
+.box-container2
+
+.contact{
+    height: 70px;
+    width: 70px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-top: -50px;
+    border: 6px solid #e92e61
+}
+
+.perfil{
+    padding: 10
+    % 0;
+    background: #171717;
+}
+
+.footer-section{
+    dispay: flex;
+}
+
+.enllaços{
+    display: flex;
+    flex-direction: column;
+    margin: 0 100px;
+}
+
+.enllaços{
+    color:#fff;
+    text-decoration: none;
+    margin-top: 0px;
 }
